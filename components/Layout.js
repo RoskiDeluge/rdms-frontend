@@ -19,7 +19,7 @@ export default function Layout({ title, keywords, description, children }) {
 
       <Header />
 
-      {router.pathname === "/" && <Showcase />}
+      {/* {router.pathname === "/" && <Showcase />} */}
 
       <div className={styles.container}>{children}</div>
       <Footer />
@@ -28,7 +28,7 @@ export default function Layout({ title, keywords, description, children }) {
 }
 
 Layout.defaultProps = {
-  title: "SF Bay Film Calendar | Bay Area Repertory Film Calendar",
+  title: "SF Bay Film App | App built for admins of SF Bay Film",
   description: "Calendar for repertory films in the Bay Area.",
   keywords: "film, bay area, repertory theater, events",
 };

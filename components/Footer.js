@@ -4,7 +4,7 @@ import styles from "@/styles/Footer.module.css";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <p>Copyright &copy; SF Bay Film 2021</p>
+      <p>Copyright &copy; SF Bay Film App 2021</p>
       <p>
         <Link href="/about">About</Link>
       </p>
