@@ -1,7 +1,7 @@
-import Link from "next/link";
-import Layout from "@/components/Layout";
+// import Link from "next/link";
+// import Layout from "@/components/Layout";
 // import EventItem from "@/components/EventItem";
-import { API_URL } from "@/config/index";
+// import { API_URL } from "@/config/index";
 import LoginPage from "./account/login";
 
 export default function HomePage({ events }) {
@@ -24,12 +24,12 @@ export default function HomePage({ events }) {
   );
 }
 
-export async function getStaticProps() {
-  const res = await fetch(`${API_URL}/events?_sort=date:DESC&_limit=3`);
-  const events = await res.json();
+// export async function getStaticProps() {
+//   const res = await fetch(`${API_URL}/events?_sort=date:DESC&_limit=3`);
+//   const events = await res.json();
 
-  return {
-    props: { events },
-    revalidate: 1,
-  };
-}
+//   return {
+//     props: { events },
+//     revalidate: 1,
+//   };
+// }

@@ -1,5 +1,9 @@
 # SFBF Frontend
 
+An app to provide an admin backend for managing film screenings at https://sfbayfilm.com/
+
+_Original forked repo instructions:_
+
 ### Maps
 
 Create a .env.local file and add your Mapbox and Google API keys
