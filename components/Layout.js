@@ -28,7 +28,7 @@ export default function Layout({ title, keywords, description, children }) {
 }
 
 Layout.defaultProps = {
-  title: "SF Bay Film App | App built for admins of SF Bay Film",
-  description: "Calendar for repertory films in the Bay Area.",
-  keywords: "film, bay area, repertory theater, events",
+  title: "RDMS App",
+  description: "An RDMS crud app",
+  keywords: "",
 };

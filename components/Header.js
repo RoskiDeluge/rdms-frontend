@@ -12,7 +12,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.logo}>
         <Link href="/">
-          <a>SF Bay Film App</a>
+          <a>RDMS</a>
         </Link>
       </div>
       <nav>
