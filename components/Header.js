@@ -23,12 +23,12 @@ export default function Header() {
               <Search />
               <li>
                 <Link href="/events">
-                  <a>Screenings</a>
+                  <a>All Items</a>
                 </Link>
               </li>
               <li>
                 <Link href="/events/add">
-                  <a>Add Event</a>
+                  <a>Add Item</a>
                 </Link>
               </li>
               <li>

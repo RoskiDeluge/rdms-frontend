@@ -28,7 +28,7 @@ export default function Layout({ title, keywords, description, children }) {
 }
 
 Layout.defaultProps = {
-  title: "RDMS App",
-  description: "An RDMS crud app",
+  title: "RDMS",
+  description: "RDMS Items",
   keywords: "",
 };
